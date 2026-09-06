@@ -4,7 +4,7 @@ export const site = {
   tagline:
     'Developer-turned-data-scientist building measurable, data-driven products.',
   location: 'Bristol, UK (open to relocation)',
-  email: 'hello@saikaungkhantzaw.com',
+  email: 'saikaungkhantzaw95@gmail.com',
   photo: '/profile.jpg',
   cvHref: '/Sai_Kaung_Khant_Zaw_General_CV.docx',
   url: 'https://saikaungkhantzaw.com',
