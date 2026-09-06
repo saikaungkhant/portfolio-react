@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 32px;
+}
+
+.degree {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.degree:last-child {
+  border-bottom: none;
+}
+
+.degreeName {
+  font-size: 1.05rem;
+}
+
+.degreeOrg {
+  margin-top: 4px;
+  color: var(--accent);
+  font-size: 0.92rem;
+}
+
+.degreeMeta {
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.certHeading {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.certList {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+}
+
+.cert {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.certName {
+  font-size: 0.88rem;
+}
+
+.certIssuer {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
